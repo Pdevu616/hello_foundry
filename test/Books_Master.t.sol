@@ -2,16 +2,16 @@
 pragma solidity 0.8.26;
 
 import {Test, console} from "forge-std/Test.sol";
-import "../src/Midterm.sol";
+import "../src/Books.sol";
 
 contract MidtermTest is Test{
 
-    Midterm midterm;
-    Midterm.Book public book;
+    Books midterm;
+    Books.Book public book;
 
 
     function setUp() public {
-        midterm = new Midterm("Programming Foundry", "Ellan", 100);
+        midterm = new Books("Programming Foundry", "Ellan", 100);
         console.log("Midterm contract Deployed at:",address(midterm));
     }
 
