@@ -6,12 +6,12 @@ import "../src/Books.sol";
 
 contract MidtermTest is Test{
 
-    Books midterm;
-    Books.Book public book;
+    Midterm midterm;
+    Midterm.Book public book;
 
 
     function setUp() public {
-        midterm = new Books("Programming Foundry", "Ellan", 100);
+        midterm = new Midterm("Programming Foundry", "Ellan", 100);
         console.log("Midterm contract Deployed at:",address(midterm));
     }
 

@@ -5,13 +5,13 @@ import {Script, console} from "forge-std/Script.sol";
 import "../src/Books.sol";
 
 contract Deploy is Script {
-    Books public midterm;
-    Books.Book public book;
+    Midterm public midterm;
+    Midterm.Book public book;
 
     function setUp() public {
         vm.broadcast();
 
-        midterm = new Books("Programming Foundry", "Ellan", 100);
+        midterm = new Midterm("Programming Foundry", "Ellan", 100);
     }
 
     function run() public {
