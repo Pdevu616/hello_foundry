@@ -1,7 +1,7 @@
 //SPDX-License-Identifier:MIT
 pragma solidity 0.8.26;
 
-import {Test, console} from "forge-std/test.sol";
+import {Test, console} from "forge-std/Test.sol";
 import "../src/Midterm.sol";
 
 contract MidtermTest is Test{
