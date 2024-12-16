@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import {Script, console} from "forge-std/Script.sol";
 import "../src/Books.sol";
 
-contract Deploy is Script {
+contract DeployBooks is Script {
     Books public midterm;
     Books.Book public book;
 

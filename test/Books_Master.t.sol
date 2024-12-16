@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import {Test, console} from "forge-std/Test.sol";
 import "../src/Books.sol";
 
-contract MidtermTest is Test{
+contract TestBooks is Test{
 
     Books midterm;
     Books.Book public book;
